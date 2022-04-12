@@ -1,0 +1,55 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000000d0;  
+    margin: 10%; 
+    margin-left: 30%;
+    margin-right: 30%; 
+    color:white;
+    padding:30px;
+    border-radius: 30px;
+}
+body{
+    background-image: url("https://cdn.givingcompass.org/wp-content/uploads/2019/12/02081412/Climate-Change-and-the-New-Language-of-Weather-800x450.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.search-btn{
+
+    border-radius: 50%;
+}
+button {
+    margin: 0.5em;
+    border-radius: 50%;
+    border: none;
+    height: 40px;
+    width: 40px;
+    outline: none;
+    background: #7c7c7c2b;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    padding: 5px;
+  }
+
+.search-bar {
+    border: none;
+    outline: none;
+    padding: 0.4em 1em;
+    border-radius: 24px;
+    background: #7c7c7c2b;
+    color: white;
+    font-family: inherit;
+    font-size: 105%;
+    height:30px;
+    width:300px;
+  }
+
+  .search {
+    display: flex;
+    align-items: center;
+  }
+  ::placeholder {
+    color: white;
+  }
